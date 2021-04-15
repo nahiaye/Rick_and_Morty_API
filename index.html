@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty</title>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+    <link rel="stylesheet" href="/magic.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+</head>
+
+<body style="background-image: url('jeremy-perkins-uhjiu8FjnsQ-unsplash.jpg');">
+    <nav class="navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand animate__animated animate__zoomIn animate__delay-1s animate__slower animate__infinite">Rick&MortyAPI</a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li id="home"><a href="/">HOME</a></li>
+                <li id="about"><a href="/about">ABOUT</a></li>
+                <li id="contact"><a href="/contact">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div>
+        <img src="http://i.giphy.com/l41lI4bYmcsPJX9Go.gif" alt="RickGif">
+    </div>
+
+    <section id="pricing">
+        <h1 class="section-heading text-center p-lg-5 animate__animated animate__tada animate__delay-2s animate__slower animate__infinite header">Wubba Lubba Dub Dub!</h1>
+        <p class="text-center">Please read the <a class="link animate__animated animate__flash animate__delay-2s animate__slower animate__infinite" href="/about">documentation</a> to understand how this works.</p>
+        <div class="row">
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card pricing">
+                    <div class="card-header pricing">
+                        <h3 class="text-center animate__animated animate__fadeIn animate__delay-1s animate__slower animate__repeat-3">Character</h3>
+                    </div>
+                    <div class="card-body pricing text-center">
+                        <p>Type in a number to get a random character from Rick&Morty.</p>
+                        <p>There are <b>671</b> characters sorted by id.</p>
+                        <p>Click on the button below.</p>
+                        <p class="charac animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-users fa-lg"></i>
+                            </button>
+                        </p>
+
+                        <div class="collapse" id="collapseExample1">
+                            <div class="card card-body">
+                                <form class="text-center" action="/" method="post">
+                                    <label class="xter" for="characterNumber"></label>
+                                    <input id="characterNumber" type="text" name="characterNumber">
+                                    <button type="submit" class="btn btn-primary"> Go </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card pricing">
+                    <div class="card-header pricing">
+
+                        <h3 class="text-center animate__animated animate__fadeIn animate__delay-1s animate__slower animate__repeat-3">Location</h3>
+                    </div>
+                    <div class="card-body pricing text-center">
+                        <p>Type in a number to get a random location from Rick&Morty.</p>
+                        <p>There are <b>108</b> locations sorted by id.</p>
+                        <p>Click on the button below.</p>
+                        <p class="location animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-map-marker-alt fa-xs"></i>
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample2">
+                            <div class="card card-body">
+                                <form class="text-center" action="/" method="post">
+                                    <label for="locationNumber"></label>
+                                    <input id="locationNumber" type="text" name="locationNumber">
+                                    <button type="submit" class="btn btn-primary"> Go </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 ">
+
+                <div class="card pricing">
+                    <div class="card-header pricing">
+                        <h3 class="text-center animate__animated animate__fadeIn animate__delay-1s animate__slower animate__repeat-3">Episode</h3>
+                    </div>
+                    <div class="card-body pricing text-center">
+                        <p>Type in a number to get a random episode from Rick&Morty.</p>
+                        <p>There are <b>41</b> episodes sorted by id.</p>
+                        <p>Click on the button below.</p>
+                        <p class="episode animate__animated animate__pulse animate__delay-2s animate__slow animate__infinite">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+                                <i class="fas fa-play-circle fa-md"></i>
+                            </button>
+                        </p>
+                        <div class="collapse" id="collapseExample3">
+                            <div class="card card-body">
+                                <form class="text-center" action="/" method="post">
+                                    <label for="episodeNumber"></label>
+                                    <input id="episodeNumber" type="text" name="episodeNumber">
+                                    <button type="submit" class="btn btn-primary"> Go </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+<footer>
+
+    <div class="footer">
+        <a href="http://twitter.com/ommieness"><i class="fab fa-twitter"></i></a>
+        <a href="http://instagram.com/nahii_aye"><i class="fab fa-instagram"></i></a>
+        <a href="http://github.com/nahiaye"><i class="fab fa-github"></i></a> © 2021 NAHOM SILESHI
+    </div>
+
+</footer>
+
+</html>

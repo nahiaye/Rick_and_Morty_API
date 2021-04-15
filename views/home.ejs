@@ -1,0 +1,47 @@
+<% include partials/header %>
+
+    <h1 class="animate__animated animate__tada header"> Wubba Lubba Dub Dub!</h1>
+    <p class="charac">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+          With Character Number
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample1">
+        <div class="card card-body">
+            <form class="text-center" action="/" method="post">
+                <label class="xter" for="characterNumber"></label>
+                <input id="characterNumber" type="text" name="characterNumber">
+                <button type="submit" class="btn btn-primary"> Go </button>
+            </form>
+        </div>
+    </div>
+    <p class="location">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+          With Location Number
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample2">
+        <div class="card card-body">
+            <form class="text-center" action="/" method="post">
+                <label for="locationNumber"></label>
+                <input id="locationNumber" type="text" name="locationNumber">
+                <button type="submit" class="btn btn-primary"> Go </button>
+            </form>
+        </div>
+    </div>
+    <p class="episode">
+        <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+          With Episode Number
+        </button>
+    </p>
+    <div class="collapse" id="collapseExample3">
+        <div class="card card-body">
+            <form class="text-center" action="/" method="post">
+                <label for="episodeNumber"></label>
+                <input id="episodeNumber" type="text" name="episodeNumber">
+                <button type="submit" class="btn btn-primary"> Go </button>
+            </form>
+        </div>
+    </div>
+
+    <% include partials/footer %>

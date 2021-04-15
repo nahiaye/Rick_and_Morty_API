@@ -1,0 +1,145 @@
+body {
+    background-color: #9BF9D6;
+    padding-top: 70px;
+}
+
+img {
+    display: flex;
+    margin-top: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-left: 42.5rem; */
+}
+
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+    background-color: #7cbc6c;
+}
+
+
+/* c7fa6c */
+
+
+/* 7cbc6c */
+
+.header {
+    margin: 5rem;
+    text-align: center;
+}
+
+.row {
+    background-color: #4AF9D6;
+}
+
+.link {
+    color: #000;
+}
+
+.charac {
+    text-align: center;
+    margin: 1rem;
+}
+
+.location {
+    text-align: center;
+    margin: 1rem;
+}
+
+.episode {
+    text-align: center;
+    margin: 1rem;
+}
+
+.footer a {
+    padding: 10px 4%;
+    margin: 10px 10px;
+    font-size: 2rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #9BF9D6;
+    /* margin-top: 23rem; */
+    padding: 10px 4%;
+    margin: 10px 10px;
+    font-size: 1.5rem;
+}
+
+@media(max-width:767px) {
+    img {
+        margin-top: 17.5rem;
+    }
+    .header {
+        margin: 1rem;
+    }
+}
+
+@media(min-width:768px) {}
+
+@media(min-width:992px) {}
+
+@media(min-width:1200px) {}
+
+
+/* 
+.footer {
+    margin-top: 25px;
+    font-size: 0.75rem;
+} */
+
+
+/* .navbar-brand {
+    margin-left: 5rem;
+    padding-left: 5rem;
+    margin-right: 10rem;
+}
+
+.home {
+    margin-left: 15rem;
+    padding-left: 15rem;
+}
+
+.about {
+    margin-left: 5em;
+    padding-left: 5rem;
+}
+
+.contact {
+    margin-left: 5rem;
+    padding-left: 5rem;
+} */
+
+
+/* @media(max-width: 1028px) {
+    .navbar-brand {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+    }
+    .home {
+        margin-top: -3.5rem;
+        margin-left: 10rem;
+        padding-left: 10rem;
+    }
+    .about {
+        margin-left: 10rem;
+        padding-left: 10rem;
+    }
+    .contact {
+        margin-left: 10.25rem;
+        padding-left: 10.25rem;
+    }
+    .heading {
+        margin: 3rem;
+    }
+    #characterNumber {
+        margin: 1.5rem;
+    }
+    .btn {
+        margin: -0.75rem;
+    }
+} */

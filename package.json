@@ -1,0 +1,23 @@
+{
+  "name": "rickandmorty",
+  "version": "1.0.0",
+  "description": "Rick and Morty API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nahom Sileshi",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "gitignore": "^0.6.0",
+    "https": "^1.0.0",
+    "magic.css": "^1.4.6",
+    "rick-and-morty": "^1.0.1",
+    "rickmortyapi": "^0.3.0",
+    "scrollmagic": "^2.0.8"
+  }
+}
